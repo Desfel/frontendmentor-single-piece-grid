@@ -106,6 +106,7 @@ export default {
       margin-top: 26px;
       width: 100%;
       text-align: center;
+      line-height: 19px;
       padding: 15px 0 14px;
       background: $primaryColor2;
       color: $light;
