@@ -141,7 +141,7 @@ export default {
       align-items: stretch;
       background: $primaryColor1;
       color: $light;
-      border-radius: 0 0 5px 5px;
+      border-radius: 0 0 8px 8px;
 
       @media (max-width: 767px) {
         flex-direction: column;
