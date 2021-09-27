@@ -39,6 +39,13 @@ export default {
 <style lang="scss">
 @import '@/theme/variables.scss';
 
+html,
+body,
+main,
+#app {
+  height: 100%;
+}
+
 body {
   margin: 0;
 
@@ -108,8 +115,7 @@ body {
       align-items: center;
       justify-content: center;
       margin: 0;
-      height: 100vh;
-      padding: 20px;
+      min-height: 100%;
       background: #e6eff5;
 
       .page-wrapper {

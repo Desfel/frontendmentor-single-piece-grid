@@ -70,6 +70,10 @@ export default {
   align-items: center;
   padding: 40px;
 
+  @media (max-width: 767px) {
+    padding: 40px 24px;
+  }
+
   .card-content {
     //width: 45%;
     max-width: 635px;
